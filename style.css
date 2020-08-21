@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    padding-top:15px;
+}
+.logo{
+    
+    font-weight: 500;
+}
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo img{
+    height: 40px;
+    width: auto;
+    padding-right: 5px;
+}
+.stream {
+    font-weight: 500;
+}
+.stream i{
+    padding: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25%;
+    border-color: #e55f3d;
+    display: inline-block;
+}
+.search{
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.search form input
+{
+    border-radius: 10px;
+    border:0px;
+    background-color: #eee;  
+    margin-right: 13px ;
+}
+.search form input:focus{
+    background-color: #eee;
+    border: 0px;
+    box-shadow: 2px 2px 10px #777777;
+}
+.search button
+{
+    padding-left: 10px ;
+    background-color: #e55f3d;
+    color: #fff;
+    border-radius: 10px;
+}
+.mid{
+    margin-top: 11px;
+}
+.vertical-menu {
+    width: 200px;
+    background-color: rgba(238, 238, 238,0.5);
+    border-radius: 15px;
+    overflow-y: scroll;
+  }
+  
+  .vertical-menu a {
+    
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+.vertical-menu a:focus{
+    color: #e55f3d;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.float-container{
+    padding: 20px;
+}
+
+.float-child {
+    
+    float: left;
+    padding: 20px;
+    
+} 
+.medal{
+    border-radius: 10px;
+}
+.medal p{
+    text-align: left !important;
+}
+.progress{
+    border-radius: 10px;
+}
+.progress p{
+    text-align: left !important;
+}
+.div1 {
+     
+    overflow:auto; // without overflow here, if the "Line 1" and "Line 2" is short then "Next elements" will display below "Line 2" and the image will cover the "Next elements" 
+}
+.image1 {
+   float: left;
+   width:80px;
+   height:80px;
+    
+}
+.div2 {
+   float: left; // without float here, if "Line 1" and "Line 2" is long -> text will display both at right and bottom the image
+}
